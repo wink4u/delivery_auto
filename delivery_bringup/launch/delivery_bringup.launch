@@ -7,5 +7,7 @@
   <include file="$(find delivery_bringup)/launch/delivery_core.launch"/>
 
   <include file="$(find iahrs_driver)/launch/iahrs_driver.launch"/>
+
+  <include file="$(find delivery_odom)/launch/odom.launch"/>
   
 </launch>
